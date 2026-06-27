@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("assets/images/back.jpg");
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 94px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 20;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    position: relative;
+    gap: 10px;
+    /* text-align: center; */
+    padding: 0 23px;
+    ;
+
+}
+
+.hero>:nth-child(1) {
+    font-weight: bolder;
+    font-size: 30px;
+    /* line-height: 1px; */
+    text-align: center;
+}
+
+.hero>:nth-child(2) {
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.hero :nth-child(3) {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+
+}
+
+.hero :nth-child(4) {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 24px;
+}
+
+.hero div {
+    position: relative;
+}
+
+.seperation {
+    height: 5px;
+    background-color: rgb(50, 50, 50);
+    position: relative;
+    padding-top: 0px;
+    margin-top: 0%;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 500;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 0.5px solid rgb(212, 212, 212);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 7px 16px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.hero-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.main input {
+    padding: 11px 81px 12px 6px;
+    font-size: 11px;
+    font-weight: 900;
+    border-radius: 2px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+
+section span h1 {
+    margin: 20px;
+    margin-left: 60px;
+    color: rgb(255, 254, 254);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.trend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.trend span img {
+    border-radius: 11px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+section .card h1 {
+    margin: 20px;
+    margin-left: 60px;
+    color: rgb(255, 254, 254);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.watch img {
+    border-radius: 10px;
+}
+
+.faq h1 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 32px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faq-box:hover {
+    background-color: rgb(37, 36, 36);
+}
+
+.faq-box {
+    transition: all 1s ease-out;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 18px;
+    max-width: 80vw;
+    margin: 25px auto;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    margin: auto;
+    padding: 14px;
+}
+
+footer span {
+    margin: 2px 60px;
+    text-align: start;
+    max-width: 10vw;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-top: 56px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+
+.footer-item a {
+    color: white;
+    font-size: 12px;
+}
+footer .msg h2
+{
+    color: white;
+    font-weight:2   00;
+    /* margin-left: 1000px; */
+    text-align: center;
+}
+@media screen and (max-width:1300px) {
+    .hero-button {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero {
+        gap: 20px;
+    }
+
+    .trend {
+        flex-direction: column;
+    }
+
+    .watch {
+        flex-direction: column;
+    }
+
+    .faq-box {
+        margin-left: 0px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer span {
+        margin: 2px 59px;
+    }
+    section .card h1{
+        margin-left: 120px;
+    }
+    section span h1{
+        margin-left: 145px;
+    }
+}
